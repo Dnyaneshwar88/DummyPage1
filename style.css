@@ -1,0 +1,296 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#fixed {
+    background-color: black;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+}
+
+#d0 {
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 10%;
+    margin-left: 10%;
+}
+
+#img1 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-left: 5%;
+}
+
+#logo {
+    color: white;
+    top: 20%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 14%;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#sum1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20%;
+    margin-top: 0px;
+    margin-left: 60%;
+    position: absolute;
+    padding: 1px 10px 5px 10px;
+}
+
+#sum1:hover {
+    color: white;
+    background-color: green;
+}
+
+#sum2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20%;
+    margin-left: 70%;
+    position: absolute;
+    padding: 1px 10px 5px 10px;
+}
+
+#sum2:hover {
+    color: white;
+    background-color: green;
+}
+
+#sum3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20%;
+    margin-left: 80%;
+    position: absolute;
+    padding: 1px 10px 5px 10px;
+}
+
+#sum3:hover {
+    color: white;
+    background-color: green;
+}
+
+#sum4 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20%;
+    margin-left: 90%;
+    position: absolute;
+    padding: 1px 10px 5px 10px;
+}
+
+#sum4:hover {
+    color: white;
+    background-color: green;
+}
+
+#content2 {
+    top: 45%;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    display: none;
+    margin-left: 70%;
+    text-align: center;
+    background-color: black;
+}
+
+#content3 {
+    top: 45%;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    display: none;
+    margin-left: 80%;
+    text-align: center;
+    background-color: black;
+}
+
+#class:hover #content2 {
+    display: block;
+}
+
+#class:hover #content3 {
+    display: block;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 20px;
+}
+
+li a:hover {
+    color: green;
+    background-color: white;
+    display: block;
+}
+
+#d1 {
+    background-image: url("header.jpg");
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    top: 500px;
+}
+
+#b1 {
+    border: rgb(45, 209, 45) solid;
+    border-radius: 20px;
+    background-color: rgb(45, 209, 45);
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+#b1:hover {
+    background-color: rgb(12, 243, 12);
+    border: solid rgb(12, 243, 12);
+}
+
+#d2 {
+    background-color: rgb(45, 209, 45);
+    text-align: center;
+    height: 250px;
+    color: white;
+}
+
+#d3 {
+    height: 450px;
+}
+
+#b2 {
+    border: rgb(45, 209, 45) solid;
+    border-radius: 20px;
+    background-color: rgb(45, 209, 45);
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+#b2:hover {
+    background-color: rgb(12, 243, 12);
+    border: solid rgb(12, 243, 12);
+}
+
+#d4 {
+    background-color: black;
+    color: white;
+    height: 550px;
+}
+
+#b3 {
+    border: white solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+#b3:hover {
+    background-color: lightsteelblue;
+    border: solid lightsteelblue;
+}
+
+#d5 {
+    text-align: center;
+    height: 300px;
+}
+
+#b4 {
+    border: rgb(45, 209, 45) solid;
+    border-radius: 20px;
+    background-color: rgb(45, 209, 45);
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+#b4:hover {
+    background-color: rgb(12, 243, 12);
+    border: solid rgb(12, 243, 12);
+}
+
+#d6 {
+    background-color: rgb(45, 209, 45);
+    text-align: center;
+    color: white;
+}
+
+#f1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#youtube {
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#map {
+    float: right;
+    margin-top: -14%;
+    margin-right: 1%;
+}
+
+@media only screen and (max-width: 1164px) {
+    #map {
+        margin-top: -17%;
+    }
+
+    #youtube {
+        margin-top: 4%;
+    }
+}
